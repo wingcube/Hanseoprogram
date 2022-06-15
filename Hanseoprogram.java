@@ -6,13 +6,13 @@ public class HanseoProgram {
 		System.out.println("진로과목 점수를 입력하세요 : ");
 		int grade = scan.nextInt();
 
-		if (grade >= 80) {
+		if (grade >= 90) {
 			System.out.println("등급은 A 입니다.");
 		}
-		else if (grade >= 60) {
+		else if (grade >= 80) {
 			System.out.println("등급은 B 입니다.");
 		}
-		else if (grade >=40) {
+		else if (grade >=70) {
 			System.out.println("등급은 C 입니다.");
 		}
 		else {
